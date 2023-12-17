@@ -1,0 +1,25 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures that padding does not affect the total width of elements */
+}
+
+
+/* setting entire website to "Play" Font from google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Play\:wght@400;700&display=swap");
+
+body {
+  font-family: "Play", sans-serif;
+}
+
+/* white blinker for search bar */
+.white-cursor {
+  caret-color: white !important;
+}
